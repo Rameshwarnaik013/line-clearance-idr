@@ -190,7 +190,7 @@ export default function Dashboard() {
             borderRadius: 6,
             cursor: "pointer",
             fontSize: 13,
-            fontFamily: "'Syne', sans-serif",
+            fontFamily: "'Inter', sans-serif",
           }}
         >
           ↻ Refresh
@@ -463,7 +463,7 @@ const inputStyle = {
   padding: "8px 12px",
   borderRadius: 6,
   fontSize: 13,
-  fontFamily: "'Syne', sans-serif",
+  fontFamily: "'Inter', sans-serif",
   cursor: "pointer",
   outline: "none",
 };
@@ -476,7 +476,7 @@ const presetBtn = (active) => ({
   color: active ? "var(--accent)" : "var(--muted)",
   cursor: "pointer",
   fontSize: 13,
-  fontFamily: "'Syne', sans-serif",
+  fontFamily: "'Inter', sans-serif",
   fontWeight: active ? 700 : 400,
   transition: "all 0.15s",
 });
